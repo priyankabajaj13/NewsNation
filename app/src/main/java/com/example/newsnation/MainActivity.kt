@@ -21,8 +21,6 @@ class MainActivity : ComponentActivity() {
         adapter= NewsAdapter(newsList)
         recyclerView= findViewById<RecyclerView>(R.id.rv_newsList)
         linearLayoutManager= LinearLayoutManager(this)
-      //  linearLayoutManager.reverseLayout= true
-       // recyclerView.addItemDecoration(CustomRecyclerDecoration())
         recyclerView.layoutManager= linearLayoutManager
         recyclerView.adapter= adapter
         fetchNews()
