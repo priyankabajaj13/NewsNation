@@ -8,7 +8,7 @@
         android:id="@+id/cv_list_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="10dp"
+        app:cardCornerRadius="8dp"
         app:cardElevation="3dp"
         android:layout_margin="5dp"
         app:layout_constraintStart_toStartOf="parent"
